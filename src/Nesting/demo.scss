@@ -1,0 +1,23 @@
+#content {
+    article {
+      h1 { color: #333 }
+      p { margin-bottom: 1.4em }
+    }
+    aside { background-color: #EEE }
+  }
+
+
+  article a {
+    color: blue;
+    :hover { color: red }
+  }
+
+  article1 a {
+    color: blue;
+    &:hover { color: red }
+  }
+
+  #content1 aside {
+    color: red;
+    body.ie & { color: green }
+  }
